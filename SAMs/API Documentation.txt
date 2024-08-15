@@ -1,0 +1,29 @@
+Refer : https://docs.blynk.io/en/blynk.cloud/device-https-api
+
+
+NOTE: (with reference to the free plam)
+1. Only 5 data streams can be had per template (we can only work with 5 datapoints say humidity is 1, temperature is 2, moisture is 3 and so on)
+2. We can concurrently have 3 templates
+3. HTTPS get limit : not sure. officially it says 10 per device per day (sounds too low) and I checked. I did not face any limit at 10 requests
+4. Update requests are 500000 per device per day. Did not check this one.
+Refer this for more info on limits (https://docs.blynk.io/en/blynk.console/limits#https-api)
+5. All data is returned as a json file.
+
+
+
+※ Our server address : blr1.blynk.cloud
+
+※ Get one data point : 
+→ https://{server_address}/external/api/get?token={token}&{pin}
+return data in whatever format
+Eg. https://blr1.blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v0
+
+※ Update a point : 
+→ https://{server_address}/external/api/update?token={token}&{pin}={value}
+Eg. https://blr1.blynk.cloud/external/api/update?token=ffujYGgbf805tgsf&v1=100
+
+※ Check if hardware is connected
+→ https://{server_address}/external/api/isHardwareConnected?token={token}
+returns true or false or error
+Eg. https://blr1.blynk.cloud/external/api/isHardwareConnected?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L
+
