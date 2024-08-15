@@ -1,7 +1,7 @@
 Refer : https://docs.blynk.io/en/blynk.cloud/device-https-api
 
 
-NOTE: (with reference to the free plam)
+NOTE: (with reference to the free plan)
 1. Only 5 data streams can be had per template (we can only work with 5 datapoints say humidity is 1, temperature is 2, moisture is 3 and so on)
 2. We can concurrently have 3 templates
 3. HTTPS get limit : not sure. officially it says 10 per device per day (sounds too low) and I checked. I did not face any limit at 10 requests
