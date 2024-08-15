@@ -18,6 +18,11 @@ Refer this for more info on limits (https://docs.blynk.io/en/blynk.console/limit
 return data in whatever format
 Eg. https://blr1.blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v0
 
+※ Get all data points : 
+https://{server_address}/external/api/getAll?token={token}
+returns a json file with all the data points
+(refer https://docs.blynk.io/en/blynk.cloud/device-https-api/get-multiple-datastream-values)
+
 ※ Update a point : 
 → https://{server_address}/external/api/update?token={token}&{pin}={value}
 Eg. https://blr1.blynk.cloud/external/api/update?token=ffujYGgbf805tgsf&v1=100
