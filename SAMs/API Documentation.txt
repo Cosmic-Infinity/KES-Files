@@ -19,7 +19,7 @@ return data in whatever format
 Eg. https://blr1.blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v0
 
 ※ Get all data points : 
-https://{server_address}/external/api/getAll?token={token}
+→ https://{server_address}/external/api/getAll?token={token}
 returns a json file with all the data points
 (refer https://docs.blynk.io/en/blynk.cloud/device-https-api/get-multiple-datastream-values)
 
