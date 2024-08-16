@@ -15,7 +15,7 @@ Refer this for more info on limits (https://docs.blynk.io/en/blynk.console/limit
 
 ※ Get one data point : 
 → https://{server_address}/external/api/get?token={token}&{pin}
-return data in whatever format
+return data as it's data type
 Eg. https://blr1.blynk.cloud/external/api/get?token=Rps15JICmtRVbFyS_95houlLbm6xIQ2L&v0
 
 ※ Get all data points : 
