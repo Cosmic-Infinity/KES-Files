@@ -2,7 +2,7 @@
 # Project SAMs
 
 
-The smart agriculture monitoring system built from off the shelf hobbyist hardware. The system seamlessly integrates monitoring nodes with the cloud, setting up a CPS system for effectively monitoring a crop field's condition. This is a part of the larger project which also includes the web dashboard ![Link](https://github.com/Monu4kumar/KES_AGRICULTURE_PROJECT). The current deployment can be found ![here](https://monu4kumar.github.io/KES_AGRICULTURE_PROJECT/).
+The smart agriculture monitoring system built from off the shelf hobbyist hardware. The system seamlessly integrates monitoring nodes with the cloud, setting up a CPS system for effectively monitoring a crop field's condition. This is a part of the larger project which also includes the ![web dashboard](https://github.com/Monu4kumar/KES_AGRICULTURE_PROJECT). The current deployment can be found ![here](https://monu4kumar.github.io/KES_AGRICULTURE_PROJECT/).
 
 The current setup uses the Blynk IoT cloud as the logging and API providing platform, which is used by our web dashboard.
 An in-depth deployment overview can be found in the ![Presentation](https://github.com/Cosmic-Infinity/KES-Files/blob/main/SAMs/SAMs%20Connectivity%20Presentation.pptx) attached to the porject.
